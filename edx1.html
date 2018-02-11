@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+       Javascript and HTML
+        </title>
+        <script>
+        function ChangeTitle(){
+            var title = document.querySelector("#mainTitle");
+            title.innerHTML +="<br> This <u>title</u> has been changed by Javascript";
+            
+        }
+        function ChangeCss(){
+            var title = document.querySelector("#mainTitle");
+            title.style.color = 'black';
+            title.style.backgroundColor = 'yellow';
+            title.style.border = "5px dashed red";
+        }
+        </script>
+    </head>
+    <body>
+        <h1 id="mainTitle" >My HomePage</h1>
+        <p>Just go and fuck yourself!</p>
+        <button onclick="ChangeTitle();">Fuck me </button>
+        <button onclick = "ChangeCss();">fuck css</button>
+    </body>
+</html>
